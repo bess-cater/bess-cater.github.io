@@ -1,0 +1,78 @@
+.navbar {
+    display: flex;          /* Use flexbox layout */
+    justify-content: space-between; /* Distribute space between left, center, and right */
+    align-items: center;
+    position: sticky;
+    top: 0;                 /* Position it at the top */
+    left: 0;                /* Align it to the left */
+    /* width: 100%; */
+    height: 4rem;             /* Make the navbar span the entire width of the page */
+    z-index: 1000; 
+    background-color: #ffd4f9;
+    color: #fff;
+    padding: 1rem;
+}
+.navbar-left {
+    flex: 1;
+}
+.navbar-center {
+    position: absolute;     /* Absolutely position the center */
+  left: 50%;              /* Move the center to 50% of the navbar width */
+  transform: translateX(-50%);  /* Adjust the position back by half of its width */
+  text-align: center;  
+}
+.navbar-left .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #614a4a;
+  text-decoration: none;
+}
+
+.navbar-center .nav-links {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-center .nav-links li {
+  margin-right: 1rem;
+  cursor: pointer;
+  
+}
+
+.navbar-center .nav-links a {
+  color: #382f2f;
+  text-decoration: none;
+  font-size: 24px;
+  margin: 30px
+}
+
+.navbar-center .nav-links a {
+    color: #382f2f;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 30px;
+  }
+  
+  .navbar-center .nav-links a {
+    color: #382f2f;
+    text-decoration: none;
+    font-size: 24px;
+    margin: 30px;
+  }
+  
+  .navbar-center .nav-links a.active {
+    color: red;  /* Active color */
+    text-decoration: underline;
+  }
+  
+  .navbar-center .nav-links li {
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+
+ .active {
+    color: red;  /* Active color */
+    text-decoration: underline;
+  }

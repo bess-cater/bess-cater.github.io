@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  overflow: hidden;
 }
 
 .App-logo {
@@ -12,7 +13,13 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.tophead {
+  margin-top: 0;
+  /* padding-top: 150px; */
+  display: flex;
+  justify-content: center; /* Horizontal center */
+  align-items: center; 
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +43,4 @@
     transform: rotate(360deg);
   }
 }
+
