@@ -43,17 +43,30 @@ function Navbar(){
       function Content() {
         return (
           <div>
-            <Element name="bio" className="element" style={{ height: '100vh', backgroundColor: 'lightgreen' }}>
+            <Element name="bio" className="element" style={{ height: '100vh', backgroundColor: 'black' }}>
               <h2>Bio </h2>
               <p>This is the Bio section</p>
+              <img className="profpic" src="profile.jpg" alt="Profile" />
+              <div className="plain">I am an HCI enthusiast</div>
             </Element>
-            <Element name="publications" className="element" style={{ height: '100vh', backgroundColor: 'lightgreen' }}>
+            <Element name="publications" className="element" style={{ height: '100vh', backgroundColor: 'black' }}>
               <h2>Publications</h2>
               <p>This is the Publications section</p>
+              <ul>
+                <li>First paper</li>
+                <li>Second paper</li>
+                <li>Third paper....</li>
+              </ul>
             </Element>
-            <Element name="projects" className="element" style={{ height: '100vh', backgroundColor: 'lightgreen' }}>
+            <Element name="projects" className="element" style={{ height: '100vh', backgroundColor: 'black' }}>
               <h2>Projects</h2>
               <p>This is the Projects section</p>
+              <div className="projects-grid">
+              <div className="project-item">Project 1</div>
+              <div className="project-item">Project 2</div>
+              <div className="project-item">Project 3</div>
+              <div className="project-item">Project 4</div>
+              </div>
             </Element>
           </div>
         );

@@ -4,7 +4,7 @@
   }
   .element {
     height: 1000px;
-    background-color: #ededed;
+    background-color: #c0b9b9;
     font-size: 45px;
     border-top: 1px solid #000;
     padding-top: 55px;
@@ -14,7 +14,11 @@
   .element.no-padding {
     padding-top: 0;
   }
-  
-  .active {
-    color: red !important;
+  .element h2 {
+    color: #c0b9b9;
+
   }
+  
+  /* .active {
+    color: rgb(255, 255, 255) !important;
+  } */
